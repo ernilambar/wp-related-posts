@@ -1,0 +1,25 @@
+{
+  "name": "themevan/wp-related-posts",
+  "description": "WordPress related posts",
+  "keywords": [ "wordpress", "related-posts" ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "ThemeVan\\WPRelatedPosts\\": "src/"
+      }
+  },
+  "authors": [
+      {
+          "name": "ThemeVan",
+          "homepage": "https://themevan.com/",
+          "email": "themevanofficial@gmail.com",
+          "role" : "Developer"
+      }
+  ],
+  "homepage": "https://github.com/themevan/wp-related-posts",
+  "minimum-stability": "dev",
+  "require": {
+    "php" : ">=5.6"
+  }
+}
