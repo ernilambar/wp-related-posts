@@ -19,7 +19,7 @@ cd path/to/wp-content/themes/<your-theme-name>
 Then, use Composer to install the package.
 
 ```bash
-composer require themevan/wp-related-posts
+composer require ernilambar/wp-related-posts
 ```
 
 Assuming you're not already including the Composer autoload file for your theme and are shipping this as part of your theme package, you'll want something like the following bit of code in your theme's `functions.php` to autoload this package (and any others).
@@ -37,7 +37,7 @@ if ( file_exists( get_parent_theme_file_path( 'vendor/autoload.php' ) ) ) {
 You can fetch related post using `posts` method.
 
 ```php
-use ThemeVan\WPRelatedPosts\RelatedPosts;
+use Nilambar\WPRelatedPosts\RelatedPosts;
 
 $args = array(
   'number'     => 3,
@@ -51,4 +51,4 @@ $related_posts = RelatedPosts::posts( get_the_ID(), $args );
 
 This project is licensed under the [MIT](http://opensource.org/licenses/MIT).
 
-2022 &copy; [ThemeVan](https://themevan.com).
+2022 &copy; [Nilambar Sharma](https://www.nilambar.net).

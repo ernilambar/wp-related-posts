@@ -5,7 +5,7 @@
  * @package RelatedPosts
  */
 
-namespace ThemeVan\WPRelatedPosts;
+namespace Nilambar\WPRelatedPosts;
 
 /**
  * Related Posts class.
