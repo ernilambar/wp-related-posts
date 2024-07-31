@@ -25,5 +25,9 @@ project.properties
 # Windows junk
 Thumbs.db
 
-# Deploy
-/deploy/
+# Project
+composer.lock
+build/
+deploy/
+docs/
+languages/
